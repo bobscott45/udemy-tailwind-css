@@ -1,10 +1,13 @@
+
+
 {
   "name": "tailwind",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "build": "postcss src/tailwind.css -o dist/css/styles.css"
+    "build": "webpack",
+    "serve": "webpack serve"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +27,7 @@
     "tailwindcss": "^2.0.4",
     "tailwindcss-debug-screens": "^2.0.0",
     "webpack": "^5.27.2",
-    "webpack-cli": "^4.5.0"
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
