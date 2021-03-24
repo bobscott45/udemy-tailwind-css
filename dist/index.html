@@ -2,13 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Document</title>
 
 <script defer src="main.js"></script><link href="styles.css" rel="stylesheet"></head>
 <body class="debug-screens bg-blue-500">
-<div class="container min-h-screen mx-auto bg-gray-50 p-2">Hello World</div>
+<div class="container min-h-screen mx-auto bg-gray-50 px-6 py-8">
+    <! - page header / headings ->
+    <section id="header">
+        <div class="text-center">
+            <h1 class="text-4xl mb-6">Tom Gonzales home training <br> I'll get you in shape!</h1>
+            <h2>Muscle building • Functional training • Nutritional advice</h2>
+        </div>
+    </section>
+
+    <section id="image_services" class="mt-8 grid grid-cols-2 gap-4">
+        <! - picture ->
+        <div id="image">
+            <img alt="Tom Gonzales Online Training" src="img/tom.jpg">
+        </div>
+        <! - Services ->
+        <div id="services">
+            <h3>I offer you:</h3>
+            <ul>
+                <li>Lessons via Skype and you can record all sessions and watch them again later.</li>
+                <li>Holistic full body training</li>
+                <li>Training without equipment</li>
+                <li>Pain reduction</li>
+                <li>Tailored nutrition plans</li>
+            </ul>
+            <h3>My qualifications:</h3>
+            <ul>
+                <li>Certified nutritionist</li>
+                <li>Certified fitness trainer</li>
+                <li>5 years of experience in 1: 1 training</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="price_payment" class="mt-8">
+        <! - Prices and payment ->
+        <div class="w-8/12 mx-auto">
+            <h2>Prices and payment</h2>
+            <p>My most important goal is that you get ahead with your goals.</p>
+            <p>In a free opening session we will discuss what you want to achieve and how much you can or want to spend.
+                Then we are guaranteed to find a solution that suits you.</p>
+        </div>
+    </section>
+
+    <section id="content" class="mt-8">
+        <! - Contact ->
+        <div id="contact" class="grid grid-cols-2 gap-4 mx-auto w-8/12">
+            <div id="email">
+                <p>Your message:</p>
+                <a href="mailto:markusgonzales@gmail.com">Send an Email</a>
+            </div>
+            <div id="whatsApp_telefon">
+                <p>WhatsApp:</p>
+                1 222 555 44 33
+            </div>
+        </div>
+    </section>
+
+
+</div>
 </body>
 </html>

@@ -551,6 +551,21 @@ video {
   height: auto;
 }
 
+h1 {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .container {
   width: 100%;
 }
