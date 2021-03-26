@@ -551,19 +551,28 @@ video {
   height: auto;
 }
 
+@font-face {
+  font-family: Oswald;
+
+  src: url(4cc74cc05cd5868cc309c7d1a8c70d0b.ttf) format("truetype");
+}
+
 h1 {
   font-size: 3rem;
   line-height: 1;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
   font-size: 1.875rem;
   line-height: 2.25rem;
+  margin-bottom: 0.75rem;
 }
 
 h3 {
   font-size: 1.5rem;
   line-height: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .container {
@@ -11320,6 +11329,10 @@ h3 {
 
   .sm\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-headline {
+    font-family: Oswald;
   }
 
   .sm\:font-thin {
@@ -41869,6 +41882,10 @@ h3 {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-headline {
+    font-family: Oswald;
+  }
+
   .md\:font-thin {
     font-weight: 100;
   }
@@ -72414,6 +72431,10 @@ h3 {
 
   .lg\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .lg\:font-headline {
+    font-family: Oswald;
   }
 
   .lg\:font-thin {
@@ -102963,6 +102984,10 @@ h3 {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-headline {
+    font-family: Oswald;
+  }
+
   .xl\:font-thin {
     font-weight: 100;
   }
@@ -133510,6 +133535,10 @@ h3 {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .\32xl\:font-headline {
+    font-family: Oswald;
+  }
+
   .\32xl\:font-thin {
     font-weight: 100;
   }
@@ -164020,6 +164049,10 @@ h3 {
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-headline {
+  font-family: Oswald;
 }
 
 .font-thin {
